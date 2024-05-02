@@ -1,0 +1,135 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Samsung Galaxy S22 5G (Green, 8GB, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "price": 36074,
+        "file":{"url":"./file/galaGalaxy_S24_Ultra.md"},
+        "image": { "fields": { "file": { "url": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/h/c/-original-imagth5xwrg4gfyp.jpeg?q=70&amp;crop=false 1x" } } }
+       
+      
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Samsung Galaxy S22 Ultra 5G (Burgundy, 12GB, 512GB Storage) with No Cost EMI/Additional",
+        "price": 78999,
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/71J8tz0UeJL._AC_UY436_FMwebp_QL65_.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Samsung Galaxy M55 5G (Light Green,12GB RAM,256GB Storage) | 50MP Triple Cam| 5000mAh Battery| Snapdragon 7 Gen 1 | 4 Gen. OS Upgrade & 5 Year Security Update| Super AMOLED+ Display| Without Charger",
+        "price": 32999,
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/81317ePW5sL._AC_UY436_FMwebp_QL65_.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "SAMSUNG Galaxy S23 FE 5G (Purple 128 GB Storage) (8 GB RAM)",
+        "price": 42170,
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/610Q2I5Or8L._AC_UY436_FMwebp_QL65_.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Samsung Galaxy S21 FE 5G (2023) (8GB 256GB Olive) with Snapdragon 888",
+        "price": 32550,
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/71nj3tkXZXL._AC_UY436_FMwebp_QL65_.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Samsung Galaxy A55 5G (Awesome Iceblue, 12GB RAM, 256GB Storage) | Metal Frame |",
+        "price": 45999,
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/71ZrPkGgcLL._AC_UY436_FMwebp_QL65_.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "SAMSUNG Galaxy S23 FE 5G (Graphite 256 GB Storage) (8 GB RAM)",
+        "price": 49999,
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/61-E0V81kBL._AC_UY436_FMwebp_QL65_.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Samsung Galaxy A35 5G (Awesome Lilac, 8GB RAM, 128GB Storage) | Premium Glass Back |",
+        "price": 30999,
+        "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/71picrEy4YL._AC_UY436_FMwebp_QL65_.jpg" } } }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "Samsung Galaxy S22 5G (Phantom White, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "price": 37075,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://m.media-amazon.com/images/I/71HUnJvHsbL._AC_UY436_FMwebp_QL65_.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": "Samsung Galaxy A54 5G (Awesome Graphite, 8GB, 256GB Storage) | 50 MP No Shake Cam (OIS) | IP67 | Gorilla Glass 5 | Voice Focus |",
+        "price": 35499,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://m.media-amazon.com/images/I/71DjLEgCUYL._AC_UY436_FMwebp_QL65_.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "11"
+      },
+      "fields": {
+        "title": "Samsung Galaxy S24 5G AI Smartphone (Cobalt Violet, 8GB, 256GB Storage)",
+        "price": 79999,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://m.media-amazon.com/images/I/71yliZMICyL._AC_UY436_FMwebp_QL65_.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "12"
+      },
+      "fields": {
+        "title": "Samsung Galaxy Z Fold5 5G AI Smartphone (Black, 12GB RAM, 512GB Storage)",
+        "price":164999,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "https://m.media-amazon.com/images/I/71RLYJvBidL._AC_UY436_FMwebp_QL65_.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
