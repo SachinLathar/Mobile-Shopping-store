@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <script src="https://pay.google.com/v2/library.js" async></script>
+</head>
+<body>
+  <h1>Checkout</h1>
+
+  <section id="cart-items">
+    <h2>Cart Items</h2>
+    <ul id="checkout-items-list"></ul>
+    <p id="cart-total">Total: $<span id="total-amount">0.00</span></p>
+  </section>
+
+  <section id="payment-options">
+    <h2>Payment Options</h2>
+    <button id="google-pay-button">Pay with Google Pay</button>
+  </section>
+
+  <form id="checkout-form" method="post" action="process_order.php">  <label for="shipping-address">Shipping Address:</label>
+    <textarea id="shipping-address" name="shipping-address" rows="5"></textarea>
+    <input type="submit" value="Submit Order" disabled>  </form>
+
+  <script>
+    // Get the cart data from URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const cartDataString = urlParams.get('cart');
+
+    // Check if cart data exists
+    if (cartDataString) {
+      const cartData = JSON.parse(decodeURIComponent(cartDataString));
+
+      // Display cart items in the checkout page
+      const checkoutItemsList = document.getElementById('checkout-items-list');
+      let totalAmount = 0;
+      cartData.items.forEach(item => {
+        // Create a list item for each cart item
+        const listItem = document.createElement('li');
+
+        // Create an image element for the item
+        const itemImage = document.createElement('img');
+        itemImage.src = "images/{items.id}.jpeg"; // Assuming the image file name corresponds to the item ID
+        itemImage.alt = item.id; // Use item ID as alt text
+        listItem.appendChild(itemImage);
+
+        // Create a div to hold item details
+        const itemDetails = document.createElement('div');
+        
+        // Create a heading for item name
+        const itemName = document.createElement('h3');
+        itemName.textContent = item.name; // Assuming item name is available
+        itemDetails.appendChild(itemName);
+        
+        // Create a paragraph for item quantity and price
+        const itemInfo = document.createElement('p');
+        itemInfo.textContent = `Quantity: ${item.quantity}, Price: $${item.price}`;
+        itemDetails.appendChild(itemInfo);
+
+        // Append item details to list item
+        listItem.appendChild(itemDetails);
+
+        // Append list item to checkout items list
+        checkoutItemsList.appendChild(listItem);
+
+        // Calculate total amount
+        totalAmount += item.price * item.quantity;
+      });
+
+      // Update total amount display
+      const totalAmountSpan = document.getElementById('total-amount');
+      totalAmountSpan.textContent = totalAmount.toFixed(2);
+    } else {
+      // Handle scenario where no cart data is present
+      console.warn("No cart data found in the URL");
+    }
+
+    // Placeholder for Google Pay integration (replace with actual implementation)
+    const googlePayButton = document.getElementById('google-pay-button');
+    googlePayButton.addEventListener('click', () => {
+      console.log('Google Pay button clicked! (Replace with actual payment processing)');
+      // Implement Google Pay API logic here to handle payments
+      // - Request payment authorization
+      // - Process payment confirmation
+      // - Update order status and enable submit button upon successful payment
+    });
+
+    // Enable submit button only after successful payment (placeholder)
+    const checkoutForm = document.getElementById('checkout-form');
+    // (Replace with logic to enable submit button based on Google Pay confirmation)
+    // checkoutForm.submit.disabled = false;
+  </script>
+  <script src="checkout.js" defer></script>
+</body>
+</html>
